@@ -50,6 +50,17 @@ h1, h2, h3 {
   font-weight: 800;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #2F0743;
+  }
+}
+
 //Homepage styles
 .home-callout {
   margin-top: -20px;
